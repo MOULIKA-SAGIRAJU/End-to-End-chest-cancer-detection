@@ -16,3 +16,10 @@ Update the pipeline
 Update the main.py
 
 Update the dvc.yaml
+
+
+#MLFLOW FROM DAGSHUB
+MLFLOW_TRACKING_URI=https://dagshub.com/MOULIKA-SAGIRAJU/mlflow-demo.mlflow \
+MLFLOW_TRACKING_USERNAME=MOULIKA-SAGIRAJU \
+MLFLOW_TRACKING_PASSWORD=2d55d183e9a0f1f8f2891955dcf02f0e85483773 \
+python script.py
